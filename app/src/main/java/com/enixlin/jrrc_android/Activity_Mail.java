@@ -31,6 +31,7 @@ public class Activity_Mail extends Activity {
     private ArrayList<View> list;
     private ViewPagerAdapter vpa;
 
+<<<<<<< HEAD
     //初始化控件
     private void initUI() {
         btn_search = (Button) findViewById(R.id.btn_search);
@@ -42,14 +43,22 @@ public class Activity_Mail extends Activity {
     private void initData() {
 
     }
+=======
+>>>>>>> origin/master
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mail);
+<<<<<<< HEAD
         initUI();
         initViewPager();
 
+=======
+        initViewPager();
+
+        btn_search = (Button) findViewById(R.id.btn_search);
+>>>>>>> origin/master
         btn_search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,6 +67,7 @@ public class Activity_Mail extends Activity {
         });
 
         //
+<<<<<<< HEAD
 
         btn_switchwift.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,6 +95,30 @@ public class Activity_Mail extends Activity {
         LayoutInflater li = LayoutInflater.from(this);
         View v1 = li.inflate(R.layout.mail_list, null);
         View v2 = li.inflate(R.layout.mail_content, null);
+=======
+        btn_switchwift = (Button) findViewById(R.id.btn_switchwifi);
+        btn_switchwift.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View v) {
+
+              // 打开ＷＩＦ网络
+              WifiAdmin wifiAdmin = new WifiAdmin(Activity_Mail.this);
+              wifiAdmin.openWifi();
+              wifiAdmin.addNetwork(wifiAdmin.CreateWifiInfo("jrrc", "meeting@rhe8O23", 3));
+              vp= (ViewPager) findViewById(R.id.vp);
+          }
+      });
+
+
+    }
+
+    public void initViewPager(){
+        vp= (ViewPager) findViewById(R.id.vp);
+        list = new ArrayList<View>();
+        LayoutInflater li=LayoutInflater.from(this);
+        View v1=li.inflate(R.layout.mail_list, null);
+        View v2=li.inflate(R.layout.mail_content,null);
+>>>>>>> origin/master
         list.add(v1);
         list.add(v2);
         vpa = new ViewPagerAdapter(list, this);

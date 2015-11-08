@@ -80,6 +80,11 @@ public class Activity_Policy extends Activity {
 					final ListviewAdapter_policy_titlelist lva = new ListviewAdapter_policy_titlelist(mActivity.get(),
 							FileList);
 					tv_title_tips.setText("本次共查询到文件：" + FileList.size() + "份");
+<<<<<<< HEAD
+=======
+					// Toast.makeText(mActivity.get(), "共查询到文件：",
+					// Toast.LENGTH_SHORT).show();
+>>>>>>> origin/master
 					lv.setAdapter(lva);
 					lv.setFastScrollAlwaysVisible(true);
 
@@ -246,7 +251,14 @@ public class Activity_Policy extends Activity {
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
+<<<<<<< HEAD
 
 		return id==R.id.action_settings || super.onOptionsItemSelected(item);
+=======
+		if (id == R.id.action_settings) {
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+>>>>>>> origin/master
 	}
 }
