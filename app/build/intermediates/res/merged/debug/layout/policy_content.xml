@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/p_policy_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/policy_content_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="#ff0000"
+        android:text="向右则滑动返回文件列表"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/policy_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout><!-- From: file:/Users/linzhenhuan/AndroidStudioProjects/Jrrc_android/app/src/main/res/layout/policy_content.xml -->

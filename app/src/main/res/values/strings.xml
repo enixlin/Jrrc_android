@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">国业助手</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_function">请选择应用功能</string>
+    <string name="username">户名</string>
+    <string name="password">密码</string>
+    <string name="bookmark">记事日程</string>
+    <string name="mail">邮件助手</string>
+    <string name="policy">政策文件</string>
+    <string name="chart">业务报表</string>
+    <string name="phonebook">通信记录</string>
+    <string name="ClientInfo">客户信息</string>
+    <string name="welcome">欢迎使用国际业务部信息查工具</string>
+    <string name="copyright">版权所有：江门融和银行国际业务部</string>
+    <string name="login">登录</string>
+    <string name="logout">退出</string>
+    <string name="input_keyword">输入关键字</string>
+    <string name="search">查询</string>
+    <string name="title_list">文件名列表</string>
+
+    <string name="date">日期</string>
+    <string name="issuedate_policy">发文日期</string>
+    <string name="title_activity_activity__customer">Activity_Customer</string>
+    <string name="title_activity__policy">外汇政策文件查询</string>
+    <string name="title_activity_activity__report">Activity_Report</string>
+    <string name="title_activity_activity__chart">Activity_Chart</string>
+    <string name="title_activity_activity__mail">Activity_Mail</string>
+
+</resources>
