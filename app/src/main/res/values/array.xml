@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="policy_search_type">
+        <item>文件名</item>
+        <item>文件编号</item>
+        <item>关键字</item>
+    </string-array>
+
+
+    <string-array name="mail_box">
+        <item>收件箱</item>
+        <item>发件箱</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff0080"
+    android:text="邮件列表"
+    />
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#00ff00"
+        ></ListView>
+</LinearLayout><!-- From: file:/Users/linzhenhuan/AndroidStudioProjects/Jrrc_android/app/src/main/res/layout/mail_list.xml -->

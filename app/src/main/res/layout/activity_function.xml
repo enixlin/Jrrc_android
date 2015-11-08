@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.enixlin.jrrc_android.Activity_Function" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_phonebook"
+                android:layout_width="150dp"
+                android:layout_height="165dp"
+                android:drawableTop="@drawable/phone"
+                android:background="@drawable/sharp"
+                android:textSize="15sp"
+                android:text="@string/phonebook" />
+
+            <Button
+                android:id="@+id/btn_mail"
+                android:layout_width="150dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="20dp"
+                android:drawableTop="@drawable/rate"
+                android:background="@drawable/sharp"
+                android:textSize="15sp"
+                android:text="@string/mail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_bookmark"
+                android:layout_width="150dp"
+                android:layout_height="165dp"
+                android:drawableTop="@drawable/bookmark"
+                android:background="@drawable/sharp"
+                android:textSize="15sp"
+                android:text="@string/bookmark" />
+
+            <Button
+                android:id="@+id/btn_clientinfo"
+                android:layout_width="150dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="20dp"
+                android:drawableTop="@drawable/company"
+                android:background="@drawable/sharp"
+                android:textSize="15sp"
+                android:text="@string/ClientInfo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_policy"
+                android:layout_width="150dp"
+                android:layout_height="165dp"
+                android:textSize="15sp"
+                android:drawableTop="@drawable/policy"
+                android:background="@drawable/sharp"
+                android:text="@string/policy" />
+
+            <Button
+                android:id="@+id/btn_chart"
+                android:layout_width="150dp"
+                android:layout_height="165dp"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:drawableTop="@drawable/chart"
+                android:background="@drawable/sharp"
+                android:text="@string/chart" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/policy_title_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="#ff0000"
+        android:text=""
+        android:textColor="#ffffff" />
+    <ListView 
+        android:id="@+id/listview_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        >
+    </ListView>
+</LinearLayout>
+<!-- From: file:/Users/linzhenhuan/AndroidStudioProjects/Jrrc_android/app/src/main/res/layout/policy_title_list.xml -->
